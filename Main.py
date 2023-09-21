@@ -1,27 +1,10 @@
 
 #mapping of every type
 #hashmap
-
-
+import pokebase as pb
 if __name__ == '__main__':
-    types = ['Normal',
-            'Fire',
-            'Water',
-            'Grass',
-            'Electric',
-            'Ice',
-            'Fighting',
-            'Poison',
-            'Ground',
-            'Flying',
-            'Psychic',
-            'Bug',
-            'Rock',
-            'Ghost',
-            'Dark',
-            'Dragon',
-            'Steel',
-            'Fairy']
-    for t in types:
-        print(t)
-        att_type[t] = 
+    sala = pb.pokemon('salamence')
+    ground = pb.type_('ground')
+    print(sala.height)
+    print(ground.damage_relations.no_damage_to)
+        
